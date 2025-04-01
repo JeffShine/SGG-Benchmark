@@ -272,7 +272,7 @@ MODEL:
     WEIGHTS: ''
 OUTPUT_DIR: ./output/relation_baseline/motifs
 PATHS_CATALOG: sgg_benchmark/config/paths_catalog.py
-PATHS_DATA: /home/maelic/Documents/Datasets/VG/
+PATHS_DATA: /home/jinchenhui/ustc/SGG-Benchmark/
 SOLVER:
   BASE_LR: 0.0025
   BIAS_LR_FACTOR: 1

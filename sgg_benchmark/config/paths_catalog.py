@@ -6,8 +6,8 @@ import copy
 
 
 class DatasetCatalog(object):
-    DATA_DIR = "/home/maelic/Documents/PhD/MyModel/SGG-Benchmark/"
-    IMG_DIR = "/home/maelic/Documents/Datasets/VG/"
+    DATA_DIR = "/home/jinchenhui/ustc/SGG-Benchmark/"
+    IMG_DIR = "/home/jinchenhui/ustc/SGG-Benchmark/datasets/vg/"
     DATASETS = {
         "VG150": {
             "img_dir": IMG_DIR+"VG_100K",
@@ -18,7 +18,7 @@ class DatasetCatalog(object):
             "informative_file": "", #DATA_DIR+"datasets/informative_sg.json",
         },
         "PSG": {
-            "img_dir": "/home/maelic/Documents/Datasets/COCO/",
+            "img_dir": "/home/jinchenhui/ustc/Qwen2-VL-Finetune/data/image/coco",
             "ann_file": DATA_DIR+"datasets/psg/psg_train_val.json",
             "informative_file":  "", #DATA_DIR+"datasets/informative_sg.json",
         },
